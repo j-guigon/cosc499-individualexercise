@@ -19,6 +19,7 @@ public class App {
         return avg;    
     }
     
+    //This summs the values of the array
     public static int sumArray(int[] x){
         int sum = 0;
         for (int i: x)

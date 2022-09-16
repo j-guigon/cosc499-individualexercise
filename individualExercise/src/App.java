@@ -4,6 +4,8 @@ public class App {
 
         //Output Average of the values in the array
         System.out.println("Average: " + avgArray(my_array));
+        //Output Sum of the values in the array
+        System.out.println("Sum: " + sumArray(my_array));
     }
 
     public static double avgArray(int[] x){
@@ -14,6 +16,13 @@ public class App {
         //calculate average value
          double avg = sum / x.length;
 
-        return avg;
+        return avg;    
+    }
+    
+    public static int sumArray(int[] x){
+        int sum = 0;
+        for (int i: x)
+            sum += i;
+        return sum;
     }
 }

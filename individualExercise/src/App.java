@@ -8,6 +8,7 @@ public class App {
         System.out.println("Sum: " + sumArray(my_array));
     }
 
+    //This averages the values of the input array
     public static double avgArray(int[] x){
         //calculate sum of all array elements
         double sum = 0;
